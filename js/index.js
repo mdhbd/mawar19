@@ -39,7 +39,7 @@
 
   $('body').append("  <style id=\"style-tag\"></style>\n<span id=\"echo\"></span>\n<span id=\"lopelope\"><i></i></span>\n<pre id=\"style-text\"></pre>");
 
-  time = window.innerWidth <= 578 ? 4 : 70;
+  time = window.innerWidth <= 578 ? 4 : 30;
 
   writeStyles(styles, 0, time);
 
